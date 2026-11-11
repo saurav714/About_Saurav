@@ -1,0 +1,11 @@
+[build]
+  publish = "."
+
+[build.environment]
+  NODE_VERSION = "22"
+
+# The homepage lives in Hi.html; serve it at the site root.
+[[redirects]]
+  from = "/"
+  to = "/Hi.html"
+  status = 200
